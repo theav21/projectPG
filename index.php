@@ -21,7 +21,7 @@ session_start();
     ?>
 
     <div class="banner-container">
-        <h2 class="white pb-3">Happiness per Square Foot</h2>
+        <h2 class="white pb-3">hello everyone</h2>
 
         <form id="search-form" action="property_list.php" method="GET">
             <div class="input-group city-search">
