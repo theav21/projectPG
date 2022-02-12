@@ -21,11 +21,11 @@ session_start();
     ?>
 
     <div class="banner-container">
-        <h2 class="white pb-3">Happiness Per Square</h2>
+        <h2 class="white pb-3"><b>My PG, My New Home!</b></h2>
 
         <form id="search-form" action="property_list.php" method="GET">
             <div class="input-group city-search">
-                <input type="text" class="form-control input-city" id='city' name='city' placeholder="Enter your city to search for PGs" />
+                <input type="text" class="form-control input-city" id='city' name='city' placeholder="Enter your location to search for PGs" />
                 <div class="input-group-append">
                     <button type="submit" class="btn btn-secondary">
                         <i class="fa fa-search"></i>
