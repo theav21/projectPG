@@ -21,7 +21,7 @@ session_start();
     ?>
 
     <div class="banner-container">
-        <h2 class="white pb-3">hello everyone</h2>
+        <h2 class="white pb-3">Happiness Per Square</h2>
 
         <form id="search-form" action="property_list.php" method="GET">
             <div class="input-group city-search">
@@ -37,38 +37,38 @@ session_start();
 
     <div class="page-container">
         <h1 class="city-heading">
-            Major Cities
+            Major Locations
         </h1>
         <div class="row">
             <div class="city-card-container col-md">
-                <a href="property_list.php?city=Delhi">
-                    <div class="city-card rounded-circle">
-                        <img src="img/delhi.png" class="city-img" />
-                    </div>
+                <a href="property_list.php?city=Sanjauli">
+                    <!-- <div class="city-card rounded-circle"> -->
+                        <img src="img/Sanjauli.png" class="city-img" />
+                    <!-- </div> -->
                 </a>
             </div>
 
             <div class="city-card-container col-md">
-                <a href="property_list.php?city=Mumbai">
-                    <div class="city-card rounded-circle">
-                        <img src="img/mumbai.png" class="city-img" />
-                    </div>
+                <a href="property_list.php?city=Summer Hill">
+                    <!-- <div class="city-card rounded-circle"> -->
+                        <img src="img/Summer Hill.png" class="city-img" />
+                    <!-- </div> -->
                 </a>
             </div>
 
             <div class="city-card-container col-md">
-                <a href="property_list.php?city=Bengaluru">
-                    <div class="city-card rounded-circle">
-                        <img src="img/bangalore.png" class="city-img" />
-                    </div>
+                <a href="property_list.php?city=Chotta Shimla">
+                    <!-- <div class="city-card rounded-circle"> -->
+                        <img src="img/chotta shimla.png" class="city-img" />
+                    <!-- </div> -->
                 </a>
             </div>
 
             <div class="city-card-container col-md">
-                <a href="property_list.php?city=Hyderabad">
-                    <div class="city-card rounded-circle">
-                        <img src="img/hyderabad.png" class="city-img" />
-                    </div>
+                <a href="property_list.php?city=Lakkar Bazar">
+                    <!-- <div class="city-card rounded-circle"> -->
+                        <img src="img/Lakkar Bazar.png" class="city-img" />
+                    <!-- </div> -->
                 </a>
             </div>
         </div>
