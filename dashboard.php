@@ -83,12 +83,13 @@ $interested_properties = mysqli_fetch_all($result_2, MYSQLI_ASSOC);
         </div>
     </div>
 
-    <?php
-    if (count($interested_properties) > 0) {
-    ?>
+    
         <div class="my-interested-properties">
             <div class="page-container">
                 <h1>My Interested Properties</h1>
+                <?php
+                    if (count($interested_properties) > 0) {
+                ?>
 
                 <?php
                 foreach ($interested_properties as $property) {
@@ -163,11 +164,12 @@ $interested_properties = mysqli_fetch_all($result_2, MYSQLI_ASSOC);
                 <?php
                 }
                 ?>
+                <?php
+                        }
+                ?>
             </div>
         </div>
-    <?php
-    }
-    ?>
+   
 
     <?php
     include "includes/footer.php";
